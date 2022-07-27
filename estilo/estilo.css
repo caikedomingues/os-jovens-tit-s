@@ -53,9 +53,14 @@ a{
 }
 
 
+.imagem1{
+	background-image: url("../imagens/imagem1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right center;
+}
 
-
-.imagem p{
+.imagem1 p{
 	background-color: rgba(0, 0, 0, 0.1000);
 	margin-right:900px;
 	border-radius: 20px;
@@ -64,7 +69,7 @@ a{
 	color: white;
 }
 
-.imagem h3{
+.imagem1 h3{
 	background-color: rgba(0, 0, 0, 0.1000);
 	margin-right: 999px;
 	border-radius: 20px;
@@ -74,9 +79,6 @@ a{
 	color: white;
 }
 
-#img01{
-	background-image: url("../imagens/imagem1.jpg");
-}
 
 
 footer{
