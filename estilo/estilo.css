@@ -54,11 +54,39 @@ a{
 
 
 .imagem1{
-	background-image: url("../imagens/imagem1.jpg");
+	background-image: url("../imagens/imagem1.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: right center;
+	background-attachment: fixed;
 }
+
+.imagem2{
+	background-image: url("../imagens/imagem2.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right center;
+	background-attachment: fixed;
+}
+
+.imagem3{
+	background-image: url("../imagens/imagem3.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right center;
+	background-attachment: fixed;
+}
+
+.imagem4{
+	background-image: url("../imagens/imagem4.avif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right center;
+	background-attachment: fixed;
+}
+
+
+
 
 .imagem1 p{
 	background-color: rgba(0, 0, 0, 0.1000);
@@ -70,16 +98,63 @@ a{
 }
 
 .imagem1 h3{
-	background-color: rgba(0, 0, 0, 0.1000);
-	margin-right: 999px;
-	border-radius: 20px;
+	margin-right: 900px;
 	padding-left: 10px;
 	padding-bottom: 10px;
 	border-radius: 20px;
 	color: white;
 }
 
+.imagem2 p{
+	background-color: rgba(0, 0, 0, 0.1000);
+	margin-right:900px;
+	border-radius: 20px;
+	padding-left: 10px;
+	border-radius: 20px;
+	color: white;
+}
 
+.imagem2 h3{
+	margin-right: 900px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border-radius: 20px;
+	color: white;
+}
+
+.imagem3 p{
+	background-color: rgba(0, 0, 0, 0.1000);
+	margin-right:900px;
+	border-radius: 20px;
+	padding-left: 10px;
+	border-radius: 20px;
+	color: white;
+}
+
+.imagem3 h3{
+	margin-right: 900px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border-radius: 20px;
+	color: white;
+}
+
+.imagem4 p{
+	background-color: rgba(0, 0, 0, 0.1000);
+	margin-right:900px;
+	border-radius: 20px;
+	padding-left: 10px;
+	border-radius: 20px;
+	color: white;
+}
+
+.imagem4 h3{
+	margin-right: 900px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border-radius: 20px;
+	color: white;
+}
 
 footer{
 	text-align: center;
