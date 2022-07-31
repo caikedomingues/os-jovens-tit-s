@@ -72,6 +72,11 @@ a{
 	color: black;
 }
 
+a:hover{
+	text-decoration: underline;
+	color: green;
+}
+
 
 .imagem1{
 	background-image: url("../imagens/imagem1.webp");

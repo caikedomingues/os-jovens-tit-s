@@ -13,5 +13,98 @@
 	--alinhamento-do-h3: left;
 	--padding-top-do-h3: 20px;
 	--padding-left-do-h3: 20px;
+	--tamanho-do-paragráfo: 25px;
 
 }
+
+
+header{
+	background-color: black;
+	font-size: var(--tamanho-da-fonte-do-header);
+	border-radius: var(--borda-arredondada-do-header);
+	margin-right: 600px;
+
+
+}
+
+header li{
+	color: white;
+	padding: 10px;
+	list-style: none;
+	display: inline-block;
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-paragráfo);
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+	font-family: var(--fonte-baixada);
+}
+
+header a:hover{
+	text-decoration: underline;
+	color: green;
+}
+
+a{
+	color: black;
+}
+
+a:hover{
+	color: green;
+	text-decoration: underline;
+}
+
+h1{
+	text-align: var(--alinhamento-do-h1-e-do-h2);
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-h1-e-do-h2);
+	color: white;
+
+}
+
+h2{
+	text-align: var(--alinhamento-do-h1-e-do-h2);
+	font-size: var(--tamanho-do-h1-e-do-h2);
+	font-family: var(--fonte-baixada);
+
+}
+
+h3{
+	text-align: var(--alinhamento-do-h3);
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-h1-e-do-h2);
+	padding-top: var(--padding-top-do-h3);
+	padding-left: var(--padding-left-do-h3);
+
+}
+
+p{
+	text-align: var(--alinhamento-do-paragráfo);
+	line-height: var(--altura-da-linha);
+	font-family: var(--fonte-baixada);
+	font-size: var(--);
+	padding-left: var(--padding-left-parágrafo);
+}
+
+.imagem1{
+	background-image: url("../imagens/estelar1.jpg");
+	background-attachment: fixed;
+	font-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+footer{
+	text-align: center;
+    color: black;
+    font-family: var(--fonte-baixada);
+}
+
+footer a:hover{
+	text-decoration: underline;
+	color: green;
+
+}
+
