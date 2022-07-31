@@ -1,0 +1,17 @@
+:root{
+	--fonte-baixada: "amatic";
+	--tamanho-da-fonte-do-header: 30px;
+	--margem-a-direita: 600px;
+	--borda-arredondada-do-header: 30px;
+	--alinhamento-do-paragráfo: justify;
+	--altura-da-linha: 2em;
+	--padding-left-parágrafo: 10px;
+	--borda-arredondada-do-paragráfo: 20px;
+	--padding-da-lista: 10px;
+	--alinhamento-do-h1-e-do-h2: center;
+	--tamanho-do-h1-e-do-h2: 40px;
+	--alinhamento-do-h3: left;
+	--padding-top-do-h3: 20px;
+	--padding-left-do-h3: 20px;
+
+}

@@ -3,6 +3,7 @@
 
 :root{
 	--fonte-baixada: "amatic";
+
 }
 
 
@@ -182,6 +183,11 @@ a{
 	border-radius: 20px;
 	color: white;
 
+}
+
+.robin{
+	color: green;
+	text-decoration: underline;
 }
 
 footer{
