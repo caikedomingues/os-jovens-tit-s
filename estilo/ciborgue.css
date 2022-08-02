@@ -1,0 +1,137 @@
+:root{
+	--fonte-baixada: "amatic";
+	--tamanho-da-fonte-do-header: 2.3vw;
+	--margin-left-do-paragrafo: 20px;
+	--borda-arredondada-do-header: 30px;
+	--alinhamento-do-paragráfo: justify;
+	--altura-da-linha: 2em;
+	--padding-left-parágrafo: 10px;
+	--padding-da-lista: 10px;
+	--alinhamento-do-h1-e-do-h2: center;
+	--tamanho-do-h1-e-do-h2: 2.3vw;
+	--alinhamento-do-h3: left;
+	--padding-top-do-h3: 20px;
+	--padding-left-do-h3: 20px;
+	--tamanho-do-paragráfo: 2.3vw;
+	--alinhamento-da-lista: left;
+}
+
+header{
+	font-family: var(--fonte-baixada);
+	background-color: black;
+	border-radius: var(--borda-arredondada-do-header);
+	color: white;
+	font-size: var(--tamanho-da-fonte-do-header);
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+}
+
+header a:hover{
+	text-decoration: underline;
+	color: green;
+}
+
+header li{
+	color: white;
+	font-size: var(--tamanho-do-paragráfo);
+	padding: var(--padding-da-lista);
+	display: inline-block;
+	text-align: var(--alinhamento-da-lista);
+}
+
+h1{
+	text-align: var(--alinhamento-do-h1-e-do-h2);
+	font-size: var(--tamanho-do-h1-e-do-h2);
+	font-family: var(--fonte-baixada);
+}
+
+h2{
+	text-align: var(--alinhamento-do-h1-e-do-h2);
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-paragráfo);
+}
+
+a{
+	color: black;
+}
+
+a:hover{
+	color: green;
+	text-decoration: underline;
+}
+
+p{
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-paragráfo);
+	padding-left: var(--padding-left-parágrafo);
+	line-height: var(--altura-da-linha);
+	margin-left: var(--margin-left-do-paragrafo);
+	text-align: var(--alinhamento-do-paragráfo);
+}
+
+.imagem1{
+	background-image: url("../imagens/ciborgue1.webp");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.imagem1 a{
+	color: white;
+	text-decoration: underline;
+}
+
+.imagem1 a:hover{
+	text-decoration: underline;
+	color: green;
+
+}
+
+.imagem2{
+	background-image: url("../imagens/ciborgue2.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.imagem3{
+	background-image: url("../imagens/ciborgue3.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.imagem4{
+	background-image: url("../imagens/ciborgue4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: cover;
+	color: white;
+}
+
+.ciborgue{
+	text-decoration: underline;
+	color: green;
+}
+
+footer{
+	text-align: center;
+	font-family: var(--fonte-baixada);
+}
+
+footer a{
+	color: black;
+}
+
+footer a:hover{
+	text-decoration: underline;
+	color: green;
+}
+
+
