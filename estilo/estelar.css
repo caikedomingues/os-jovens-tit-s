@@ -65,7 +65,7 @@ h1{
 
 h2{
 	text-align: var(--alinhamento-do-h1-e-do-h2);
-	font-size: 25px;
+	font-size: 2.3vw;
 	font-family: var(--fonte-baixada);
 
 
@@ -84,8 +84,9 @@ p{
 	text-align: var(--alinhamento-do-paragráfo);
 	line-height: var(--altura-da-linha);
 	font-family: var(--fonte-baixada);
-	font-size: 25px;
+	font-size: 2.3vw;
 	padding-left: var(--padding-left-parágrafo);
+	margin-left: 20px;
 }
 
 .imagem1{
@@ -123,11 +124,10 @@ p{
 }
 
 .imagem4{
-	background-image: url("../imagens/estelar4.jpg");
+	background-image: url("../imagens/estela4.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
-
 }
 
 .imagem4 a{
@@ -135,6 +135,11 @@ p{
 }
 
 .imagem4 a:hover{
+	text-decoration: underline;
+	color: green;
+}
+
+.estelar{
 	text-decoration: underline;
 	color: green;
 }

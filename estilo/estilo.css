@@ -41,13 +41,13 @@ header li{
 h1{
 	text-align: center;
 	font-family: var(--fonte-baixada);
-	font-size: 40px;
+	font-size: 2.3vw;
 }
 
 h2{
 	text-align: center;
 	font-family: var(--fonte-baixada);
-	font-size: 40px;
+	font-size: 2.3vw;
 }
 
 h3{
@@ -55,6 +55,7 @@ h3{
 	padding-top: 20px;
 	padding-left: 20px;
 	font-family: var(--fonte-baixada);
+	font-size: 2.3vw;
 
 }
 
@@ -64,7 +65,8 @@ p{
 	font-family: var(--fonte-baixada);
 	padding-left: 10px;
 	border-radius: 20px;
-	font-size: 25px;
+	font-size: 2.3vw;
+	margin-left: 20px;
 }
 
 a{
@@ -81,113 +83,45 @@ a:hover{
 	background-image: url("../imagens/imagem1.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: right center;
 	background-attachment: fixed;
+	color: white;
 
 	
 }
 
 .imagem2{
-	background-image: url("../imagens/imagem2.webp");
+	background-image: url("../imagens/imagem2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: right center;
 	background-attachment: fixed;
+	color: white;
 }
 
 .imagem3{
 	background-image: url("../imagens/imagem3.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: right center;
 	background-attachment: fixed;
+	color: white;
 	
 }
 
 .imagem4{
-	background-image: url("../imagens/imagem4.avif");
+	background-image: url("../imagens/imagem4.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: right center;
 	background-attachment: fixed;
+	color: white;
 }
 
 
 
 
-.imagem1 p{
-	background-color: rgba(0, 0, 0, 0.1000);
-	margin-right:900px;
-	border-radius: 20px;
-	padding-left: 10px;
-	border-radius: 20px;
-	color: white;
 
 	
-}
 
-.imagem1 h3{
-	margin-right: 900px;
-	padding-left: 10px;
-	padding-bottom: 10px;
-	border-radius: 20px;
-	color: white;
 	
-}
 
-.imagem2 p{
-	background-color: rgba(0, 0, 0, 0.1000);
-	margin-right:900px;
-	border-radius: 20px;
-	padding-left: 10px;
-	border-radius: 20px;
-	color: white;
-	
-}
-
-.imagem2 h3{
-	margin-right: 900px;
-	padding-left: 10px;
-	padding-bottom: 10px;
-	border-radius: 20px;
-	color: white;
-}
-
-.imagem3 p{
-	background-color: rgba(0, 0, 0, 0.1000);
-	margin-right:900px;
-	border-radius: 20px;
-	padding-left: 10px;
-	border-radius: 20px;
-	color: white;
-
-}
-
-.imagem3 h3{
-	margin-right: 900px;
-	padding-left: 10px;
-	padding-bottom: 10px;
-	border-radius: 20px;
-	color: white;
-}
-
-.imagem4 p{
-	background-color: rgba(0, 0, 0, 0.1000);
-	margin-right:900px;
-	border-radius: 20px;
-	padding-left: 10px;
-	border-radius: 20px;
-	color: white;
-}
-
-.imagem4 h3{
-	margin-right: 900px;
-	padding-left: 10px;
-	padding-bottom: 10px;
-	border-radius: 20px;
-	color: white;
-
-}
 
 .robin{
 	color: green;
