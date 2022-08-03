@@ -1,0 +1,119 @@
+:root{
+	--fonte-baixada: "amatic";
+	--tamanho-da-fonte-do-header: 2.3vw;
+	--margin-left-do-paragrafo: 20px;
+	--borda-arredondada-do-header: 30px;
+	--alinhamento-do-paragráfo: justify;
+	--altura-da-linha: 2em;
+	--padding-left-parágrafo: 10px;
+	--padding-da-lista: 10px;
+	--alinhamento-do-h1-e-do-h2: center;
+	--tamanho-do-h1-e-do-h2: 2.3vw;
+	--alinhamento-do-h3: left;
+	--padding-top-do-h3: 20px;
+	--padding-left-do-h3: 20px;
+	--tamanho-do-paragráfo: 2.3vw;
+	--alinhamento-da-lista: left;
+}
+
+header{
+	background-color: black;
+	color: white;
+	font-size: var(--tamanho-da-fonte-do-header);
+	border-radius: var(--borda-arredondada-do-header);
+
+}
+
+
+header li{
+	display: inline-block;
+	padding: var(--padding-da-lista);
+	color: white;
+	list-style: none;
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-paragráfo);
+}
+
+header a{
+	text-decoration: none;
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-paragráfo);
+	color: white;
+}
+
+header a:hover{
+	text-decoration: underline;
+	color: green;
+}
+
+h1{
+	font-family: var(--fonte-baixada);
+	font-size: var(--alinhamento-do-h1-e-do-h2);
+	text-align: var(--alinhamento-do-h1-e-do-h2);
+
+}
+
+h2{
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-h1-e-do-h2);
+	text-align: var(--alinhamento-do-h1-e-do-h2);
+}
+
+p{
+	font-family: var(--fonte-baixada);
+	text-align: var(--alinhamento-do-paragráfo);
+	margin-left: var(--margin-left-do-paragrafo);
+	font-size: var(--tamanho-do-paragráfo);
+	line-height: var(--altura-da-linha);
+}
+
+a{
+	color: black;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: green;
+}
+
+.imagem1{
+	background-image: url("../imagens/ravena1.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.imagem2{
+	background-image: url("../imagens/ravena2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: white;
+	background-position: right center;
+}
+
+.imagem3{
+	background-image: url("../imagens/ravena3.webp");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: white;
+	background-position: right center;
+}
+
+footer{
+	text-align: center;
+	font-family: var(--fonte-baixada);
+
+}
+
+footer a{
+	color: black;
+	font-family: var(--fonte-baixada);
+}
+
+footer a:hover{
+	text-decoration: underline;
+	color: green;
+}
