@@ -103,6 +103,11 @@ a:hover{
 	background-position: right center;
 }
 
+.ravena{
+	text-decoration: underline;
+	color: green;
+}
+
 footer{
 	text-align: center;
 	font-family: var(--fonte-baixada);

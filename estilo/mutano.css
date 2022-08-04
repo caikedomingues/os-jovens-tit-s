@@ -31,6 +31,11 @@ header a{
 
 }
 
+header a:hover{
+	text-decoration: underline;
+	color: green;
+}
+
 header li{
 	font-family: var(--fonte-baixada);
 	color: white;
@@ -43,17 +48,29 @@ header li{
 h1{
 	font-family: var(--fonte-baixada);
 	font-size: var(--tamanho-do-h1-e-do-h2);
-	text-align: center;
+	text-align: var(--alinhamento-do-h1-e-do-h2);
 }
 
 h2{
 	font-family: var(--fonte-baixada);
 	font-size: var(--tamanho-do-h1-e-do-h2);
-	text-align: center;
+	text-align: var(--alinhamento-do-h1-e-do-h2);
+}
+
+h3{
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-paragráfo);
+	text-align: var(--alinhamento-do-h1-e-do-h2);
+
 }
 
 a{
 	color: black;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: green;
 }
 
 p{
@@ -63,4 +80,60 @@ p{
 	line-height: var(--altura-da-linha);
 	margin-left: var(--margin-left-do-paragrafo);
 
+}
+
+.imagem1{
+	background-image: url("../imagens/mutano1.png");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: white;
+	background-position: right top;
+}
+
+.imagem2{
+	background-image: url("../imagens/mutano2.png");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: white;
+	background-position: right center;
+}
+
+.imagem3{
+	background-image: url("../imagens/mutano3.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: white;
+	background-position: center;
+}
+
+.imagem4{
+	background-image: url("../imagens/mutano4.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: white;
+	background-position: center;
+
+}
+
+.mutano{
+	text-decoration: underline;
+	color: green;
+}
+
+footer{
+	font-family: var(--fonte-baixada);
+	text-align: center;
+}
+
+footer a{
+	color: black;
+}
+
+footer a:hover{
+	text-decoration: underline;
+	color: green;
 }
