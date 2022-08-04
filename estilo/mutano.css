@@ -45,3 +45,22 @@ h1{
 	font-size: var(--tamanho-do-h1-e-do-h2);
 	text-align: center;
 }
+
+h2{
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-h1-e-do-h2);
+	text-align: center;
+}
+
+a{
+	color: black;
+}
+
+p{
+	text-align: var(--alinhamento-do-paragráfo);
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-paragráfo);
+	line-height: var(--altura-da-linha);
+	margin-left: var(--margin-left-do-paragrafo);
+
+}
