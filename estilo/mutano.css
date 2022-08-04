@@ -1,0 +1,47 @@
+:root{
+	--fonte-baixada: "amatic";
+	--tamanho-da-fonte-do-header: 2.3vw;
+	--margin-left-do-paragrafo: 20px;
+	--borda-arredondada-do-header: 30px;
+	--alinhamento-do-paragráfo: justify;
+	--altura-da-linha: 2em;
+	--padding-left-parágrafo: 10px;
+	--padding-da-lista: 10px;
+	--alinhamento-do-h1-e-do-h2: center;
+	--tamanho-do-h1-e-do-h2: 2.3vw;
+	--alinhamento-do-h3: left;
+	--padding-top-do-h3: 20px;
+	--padding-left-do-h3: 20px;
+	--tamanho-do-paragráfo: 2.3vw;
+	--alinhamento-da-lista: left;
+
+}
+
+header{
+	background-color: black;
+	color: white;
+	border-radius: var(--borda-arredondada-do-header);
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-paragráfo);
+
+}
+
+header li{
+	font-family: var(--fonte-baixada);
+	color: white;
+	display: inline-block;
+	text-align: var(--alinhamento-da-lista);
+	font-size: var(--tamanho-do-paragráfo);
+	padding: var(--padding-da-lista);
+}
+
+h1{
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-h1-e-do-h2);
+	text-align: center;
+}
