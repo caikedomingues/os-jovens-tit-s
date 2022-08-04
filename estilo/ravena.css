@@ -82,6 +82,7 @@ a:hover{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: white;
+	background-position: center top;
 }
 
 .imagem2{
@@ -90,7 +91,7 @@ a:hover{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: white;
-	background-position: right center;
+	background-position: right top;
 }
 
 .imagem3{
